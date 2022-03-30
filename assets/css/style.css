@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+
+main {
+  margin: auto;
+  display: flex;
+  width: 80vmin;
+  height: 80vmin;
+  flex-wrap: wrap;
+  background-color: red;
+  gap: 60% 30%;
+  justify-content: space-between;
+}
+main > div {
+  display: flex;
+  background-color: aqua;
+  flex-basis: 20%;
+  justify-content: center;
+  align-items: center;
+}
+
+/*# sourceMappingURL=style.css.map */
